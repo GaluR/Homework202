@@ -1,6 +1,6 @@
 package pl.javastart.textcounter.servlet;
 
-import pl.javastart.text.counter.service.TextCounterService;
+import pl.javastart.textcounter.service.TextCounterService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

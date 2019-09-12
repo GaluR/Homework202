@@ -1,4 +1,4 @@
-package pl.javastart.text.counter.service;
+package pl.javastart.textcounter.service;
 
 public class TextCounterService {
 
@@ -25,6 +25,7 @@ public class TextCounterService {
     }
 
     public static boolean isPalindrom(String text) {
-        return new StringBuilder(text).reverse().toString().equals(text);
+        String s = text.toLowerCase();
+        return new StringBuilder(s).reverse().toString().equals(s);
     }
 }
