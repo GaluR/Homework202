@@ -26,6 +26,5 @@ public class TextCounter extends HttpServlet {
         writer.println("Ilość znaków to: " + tcs.characters(text) + "<br/>");
         writer.println("Ilość znaków(bez spacji) to: " + tcs.charactersWithNoSpace(text) + "<br/>");
         writer.println("Tekst jest palindromem: " + tcs.isPalindrom(text) + "<br/>");
-
     }
 }

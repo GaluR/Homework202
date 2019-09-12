@@ -23,7 +23,6 @@ public class TextCounterService {
         }
         return letters;
     }
-
     public static boolean isPalindrom(String text) {
         String s = text.toLowerCase();
         return new StringBuilder(s).reverse().toString().equals(s);

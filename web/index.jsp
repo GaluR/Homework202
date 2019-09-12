@@ -16,7 +16,6 @@
     <textarea name="text"></textarea><br/>
     <br/>
     <input type="submit" value="Wyślij">
-
   </form>
   </body>
 </html>
