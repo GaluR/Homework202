@@ -12,8 +12,8 @@
   </head>
   <body>
   <h1>Przelicznik tekstu</h1>
-  <form action="/TextCounter" method="post">
-    <input type="text" name="text"><br/>
+  <form action="/textcounter" method="post">
+    <textarea name="text"></textarea><br/>
     <br/>
     <input type="submit" value="Wyślij">
   </form>
